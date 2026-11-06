@@ -1,0 +1,70 @@
+{
+  "name": "dsh-backup-rescue",
+  "version": "0.4.5",
+  "description": "Whole-$DSH_HOME backup and restore for DeepSeek Harness: one-click archives from the settings page, agent-facing tools, and a standalone restorer that runs without DSH.",
+  "license": "MIT",
+  "type": "module",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./lib/index.d.ts",
+      "default": "./lib/index.js"
+    },
+    "./client": {
+      "default": "./client.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web"
+    }
+  },
+  "engines": {
+    "node": "^22.19.0 || >=24.0.0"
+  },
+  "files": [
+    "lib",
+    "client.js",
+    "templates",
+    "cordis.patch.yml",
+    "README.md",
+    "README.zh-CN.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "node --test tests/**/*.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "adm-zip": "^0.5.10"
+  },
+  "devDependencies": {
+    "@types/adm-zip": "^0.5.5",
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  },
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "backup",
+    "restore",
+    "export",
+    "import",
+    "deepseek-harness"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitee.com/xiaoxin3309/dsh-backup-rescue.git"
+  },
+  "homepage": "https://gitee.com/xiaoxin3309/dsh-backup-rescue#readme",
+  "bugs": {
+    "url": "https://gitee.com/xiaoxin3309/dsh-backup-rescue/issues"
+  },
+  "author": "dsh-backup-rescue contributors"
+}

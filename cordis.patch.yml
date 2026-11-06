@@ -1,0 +1,6 @@
+# dsh-backup-rescue bundle patch: inserts the backup plugin row into the
+# web profile roster.
+- insert:
+    - id: backup-plugin
+      name: 'dsh-backup-rescue'
+      config: {}

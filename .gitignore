@@ -1,0 +1,8 @@
+node_modules/
+lib/
+*.tsbuildinfo
+.DS_Store
+*.log
+exports/
+.backup-snapshot/
+.repair-snapshot/
