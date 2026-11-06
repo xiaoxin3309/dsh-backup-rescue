@@ -60,11 +60,11 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://gitee.com/xiaoxin3309/dsh-backup-rescue.git"
+    "url": "git+https://github.com/xiaoxin3309/dsh-backup-rescue.git"
   },
-  "homepage": "https://gitee.com/xiaoxin3309/dsh-backup-rescue#readme",
+  "homepage": "https://github.com/xiaoxin3309/dsh-backup-rescue#readme",
   "bugs": {
-    "url": "https://gitee.com/xiaoxin3309/dsh-backup-rescue/issues"
+    "url": "https://github.com/xiaoxin3309/dsh-backup-rescue/issues"
   },
   "author": "dsh-backup-rescue contributors"
 }
