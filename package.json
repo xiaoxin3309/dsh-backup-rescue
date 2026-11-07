@@ -1,6 +1,6 @@
 {
   "name": "dsh-backup-rescue",
-  "version": "0.4.5",
+  "version": "0.4.6",
   "description": "Whole-$DSH_HOME backup and restore for DeepSeek Harness: one-click archives from the settings page, agent-facing tools, and a standalone restorer that runs without DSH.",
   "license": "MIT",
   "type": "module",
